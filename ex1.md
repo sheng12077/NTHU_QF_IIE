@@ -1,3 +1,5 @@
+[ex1](https://eeclass.nthu.edu.tw/course/homework/28024)
+
 ```py
 x=float(input())
 y=float(input())
