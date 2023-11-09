@@ -32,7 +32,6 @@ if flag:
         if(i%3==0):
             ans+=i
     print(ans)
-    # print(a,b)
 else:
     print('error')
 ```
@@ -97,7 +96,6 @@ dic={"Blank Space": 270,
     "Bad Blood" : 245,
     "Enchanted" : 350}
 s=str(input()).split(',')
-# print(s)
 bs=0 
 ah=0
 si=0
@@ -121,7 +119,6 @@ lis.append(si)
 lis.append(bb)
 lis.append(e)
 
-# print(lis)
 time=0
 cost=0
 for i in range(len(s)):
