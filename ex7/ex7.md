@@ -88,7 +88,7 @@ def test():
     
 
 def count(lst):
-    return round(st.mean(lst)), round(st.median(lst)), round(st.pstdev(lst),2), round(st.pvariance(lst),2)
+    return round(st.mean(lst)), round(st.median(lst)), round(st.pstdev(lst),2), round((st.pstdev(lst))**2,2)
 
     
 if __name__=="__main__":
